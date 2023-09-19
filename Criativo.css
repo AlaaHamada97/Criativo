@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(4, 4, 4);
+}
+nav{
+    background-color: rgba(29, 28, 28, 0.856);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.navhp{
+   
+    width: 20%;
+    color: rgb(94, 214, 214);   
+position: absolute;
+    top: 20px;
+    left: 30px;
+   
+}
+.navhp h1{
+    position: absolute;
+    left: 25px;
+}
+.navhp p{
+    position: absolute;
+    top: 30px;
+}
+.nava{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 35px;
+    left: 700px;
+}
+.nava a{
+    font-size: 18px;
+    color: rgb(249, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(94, 214, 214);
+}
+.sec1{ 
+    display: flex;
+    width: 100%;
+    height: 700px;
+ background-image: linear-gradient(to right,rgb(0, 0, 0) ,
+ rgba(63, 62, 62, 0.058),  rgb(58, 124, 124));
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+ position: relative;
+}
+.center{
+   font-family: Arial, Helvetica, sans-serif;
+    height: 700px;
+    width: 100%;  
+     position: absolute;
+    top: 200px;
+    left: 120px;
+   color: white;
+   font-size: 30px;
+}
+.centerp{
+   
+    color: rgb(94, 214, 214);
+}
+.centerh1{
+    position: absolute;
+    top:50px ;
+}
+.sec1 span{
+    color: rgb(94, 214, 214);
+}
+.centerp1{
+    position: absolute;
+    top: 160px;
+    font-size: 18px;
+}
+
+.sec1img {
+      
+    position: absolute;
+    bottom:0PX;
+    left: 860px;
+    height: 900px;
+}
+    
+
+.divhp{
+    width:100%;
+    height: 500px;
+    font-size: 20px;
+   position: relative;
+}
+.divhp .h3{
+    font-size: 30px;
+    color: rgb(94, 214, 214);
+    position: absolute;
+    top: 100px;
+    left: 130px;
+}
+.divhp .h1{
+    font-size: 50px;
+    
+    position: absolute;
+    top: 130px;
+    left: 130px;
+}
+.divhp p{
+    font-size: 20px;
+   
+position: absolute;
+    top: 200px;
+    left: 130px;}
+
+.divhp input{
+    position: absolute;
+    top: 350px;
+    left: 115px;
+   }
+   .divhp .h11{
+    font-size: 20px;
+    position: absolute;
+    top: 365px;
+    left: 140px;
+   }
+   
+   
+   .photo{
+    color: white;
+    width: 50%;
+    height: 300px;
+    position: relative;
+   }
+   
+   .photo h1 {
+    position: absolute;
+    top: 170px;
+    left: 60px;
+   }
+   .photo p{ 
+    position: absolute;
+    top: 200px;
+    left: 30px;
+   }
+   .photo1{ 
+    background-color: rgb(33, 32, 32);
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    bottom: 480px;
+    left: 790px;
+   }
+   .photo2{
+    background-image: linear-gradient(to bottom,rgb(0, 0, 0) ,
+    rgba(63, 62, 62, 0.058),  rgb(58, 124, 124));
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    bottom: 440px;
+    left: 1100px;
+   }
+   .photo3{ 
+    background-image: linear-gradient(to bottom,rgb(0, 0, 0) ,
+ rgba(63, 62, 62, 0.058),  rgb(58, 124, 124));
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    bottom: 220px;
+    left: 790px;
+   }
+   .photo4{
+    background-color: rgb(33, 32, 32);
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    bottom: 180px;
+    left: 1100px;
+   }
+   .sec2 img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 75px;
+    top: 15px;
+   }
+   .sec3{
+    background-color: rgb(15, 15, 15);
+    width: 110%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+   }
+   .sec3img1{
+    height: 700px;
+    position: absolute;
+    top: 10 0px;
+    left: 180px;
+   }
+   .sec3div1{
+    position: absolute;
+    left: 750px;
+    top: 270px;
+   }
+   .sec3div2{
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+   }
+   .sec3div3{
+    width: 350px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+   }
+   .sec3img2{
+    position: absolute;
+    right: 300px;
+    top: 115px;
+   }
+   .sec3div2 h1 {
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+.sec3div2 p{
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+.sec3img3{
+    position: absolute;
+    right: 250px;
+    top: 110px;
+   }
+   .sec3div3 h1 {
+    position: absolute;
+    top: 120px;
+    left: 110px;
+}
+.sec3div3 p{
+    position: absolute;
+    top: 150px;
+    left: 110px;
+}
+.sec4{
+    width: 100%;
+    height: 320px;
+    background-image: linear-gradient(to left,rgb(29, 28, 28) ,
+    rgba(94, 92, 92, 0.058),  rgb(58, 124, 124));
+    position: relative;
+}
+.sec4div{
+    width: 60%;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec4div1{
+  position: absolute;
+  top: 100px;
+  position: relative;
+}
+.sec4div2{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+  }
+  .sec4div3{
+    position: absolute;
+    top: 100px;
+    left: 750px;
+  }
+  .sec4div4{
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    
+  }
+ 
+ 
+  .sec5{
+    width: 100%;
+    height: 300px;
+    position: relative;
+  }
+  .endhp{
+ position: absolute;
+ top: 120px;
+ left: 650px;
+  }
+  .endhp h1{
+    font-size: 50px;
+    width: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: 25px;
+  }
+.endhp p{
+    width: 100px;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    left: 45px;
+    bottom: 6px;
+  }
+  .enda{
+    width: 50%;
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+    position: absolute;
+    top: 150px;
+ left: 350px;
+  }
+  .enda a{
+    color: rgb(94, 214, 214);
+  }
+.sec5 h5{
+    color: rgb(185, 180, 180);
+    font-size: 16px;
+    position: absolute;
+    top: 190px;
+ left: 520px;
+}
+.sec5 h4{
+    color: rgb(185, 180, 180);
+    font-size: 16px;
+    position: absolute;
+    top: 210px;
+ left: 600px;
+}
+.sec5 h3{
+    
+    color: rgb(163, 159, 159);
+    font-size: 16px;
+    position: absolute;
+    top: 270px;
+ left: 450px;
+}
